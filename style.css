@@ -13,7 +13,7 @@ body{
     overflow-x: hidden;
 }
 .sign-up form{
-    width: 90%;
+ 
 }
 .sign-up button{
     width: 100%;
@@ -36,6 +36,7 @@ body{
 .main-page h1{
     font-size: 6em;
 }
+
 .main-page p{
     font-size: 18px;
 }
@@ -86,7 +87,6 @@ body{
 #pricing{
 	padding-top: 130px;
 	padding-bottom: 120px;
-	background-color: #f5f5f5;
 }
 .st-pricing{
     background-color: #fff;
@@ -135,7 +135,6 @@ body{
 }
 
 #about{
-	background-color: #f5f5f5;
 }
 .timeline {
     list-style: none;
