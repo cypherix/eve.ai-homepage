@@ -12,8 +12,20 @@ p{
 body{
     overflow-x: hidden;
 }
+#heading{
+    animation-delay: .5s;
+}
+#tagline{
+    animation-delay: 1s;
+    font-size: 17px;
+}
+.description{
+    animation-delay: 2s
+}
 .sign-up form{
- 
+    width: 90%;
+    position: relative;
+    top:50px;
 }
 .sign-up button{
     width: 100%;
@@ -22,10 +34,18 @@ body{
 .sign-up input{
     height:3em;
 }
+@media screen and (max-width : 768px){
+    .sign-up form{
+        margin-top: 5em;
+        position: relative;
+        left: 5%;
+    }
+}
 .main-page{
     padding-top: 15em;
     padding-bottom: 15em;
-    background: url('images/main-bg.jpg');
+    background-color: #f0f0f0;
+    background: url('../images/main-bg.jpg');
     background-attachment:scroll;
     background-position: center;
     background-size: cover;
@@ -66,8 +86,8 @@ body{
 }
 @media screen and (min-width : 768px){
     .feature .container{
-        padding-left : 6em;
-        padding-right: 6em;
+        padding-left : 10%;
+        padding-right: 10%;
         margin: 0 auto;
     }
 }
@@ -134,7 +154,8 @@ body{
 	background-color: #000;
 }
 
-#about{
+.section-heading{
+    padding-bottom:1em;
 }
 .timeline {
     list-style: none;

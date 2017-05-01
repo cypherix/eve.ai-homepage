@@ -15,15 +15,16 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <!--Animate.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
+    
+    
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'/>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'/>
 
     <!-- Customs CSS -->
-    <link href="creative.min.css" rel="stylesheet"/>
-    <link href="style.css" rel="stylesheet"/>
+    <link href="css/creative.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,8 +35,8 @@
 
 </head>
 
-<body id="page-top" class="animated fadeIn">
-
+<body id="page-top">    
+    
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -48,12 +49,12 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
+                <ul class="nav navbar-nav navbar-left">
                     <li>
                         <a class="page-scroll" href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#pricing">Pricing</a>
@@ -61,6 +62,8 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a class="page-scroll" href="#">Login</a>
                     </li>
@@ -75,32 +78,29 @@
     </nav>
 
     <section id="main-page" class="main-page">
+        <div class="container">
         <div class="row">
             <div class="container">
                 <div class="col-sm-12 col-md-8">
                     <div class="container-fluid">
-                        <h1 class="animated fadeIn">eve.ai</h1>
-                        <p id="delay" class="animated fadeIn delay3">eve.ai is an AI based system that can shortlist resume based on given job description. eve.ai is a cross-platform cloud based SaaS product which analyses your resume and rank it according to our unique and tested Algorithms</p>
+                        <h1 id="heading" class="animated fadeIn">eve.ai</h1>
+                        <p id="tagline" class="animated fadeIn">Hiring Without Hassle</p>
+                        <p class="description animated fadeIn">eve.ai is an AI-based system that can shortlist resumes based on a given job description. eve.ai is a cross-platform cloud-based SaaS product which analyses your resume and ranks it accordingly based on our unique and tested algorithms.</p>
                     </div>
                 </div>
-                <div class="sign-up col-sm-12 col-md-4 hidden-xs">
+                <div class="description animated fadeIn sign-up col-sm-12 col-md-4">
                     <form>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name" placeholder="Pick a Username">
+                            <input type="text" class="form-control" id="name" placeholder="Company Name">
                         </div>
                         <div class="form-group">
                             <input type="email" class="form-control" id="email" placeholder="Your email address">
                         </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" id="name" placeholder="Create a password">
-                        </div>
-                        <button type="submit" class="btn btn-default">Sign up</button>
+                        <button type="submit" class="btn btn-default">Get early leads</button>
                     </form>
                 </div>
-                <div class="sign-up hidden-md hidden-lg">
-                    <a class="hidden-btn btn btn-primary" href="#">Sign Up</a>
-                </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -108,11 +108,11 @@
     <section class="features" id="features">
         <div class="container">
             <h1 class="feature-head">Features</h1>
-            <p class="feature-tagline">We bring you a lot of features unique to ourselves </p>
+            <p class="feature-tagline">We bring you a lot of unique features</p>
             <div class="feature row">
                 <div class="container">
                     <div class="col-sm-12 col-md-4">
-                        <img class="img img-responsive brain" src="images/small_1420.png"/>
+                        <img class="img img-responsive brain" src="images/small_1420.jpg"/>
                     </div>
                     <div class="col-sm-12 col-md-8">
                         <h3>Neural Networks</h3>
@@ -149,7 +149,7 @@
                     </div>
                     <div class="col-sm-12 col-md-8">
                         <h3>Mailing system</h3>
-                        <p>Our product has an in built mailing system which will notify the selected applicants.</p>
+                        <p>Our product has an in-built mailing system which will notify the selected applicants.</p>
                     </div>
                 </div>
             </div>
@@ -161,7 +161,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
             <div class="row">
@@ -174,7 +174,7 @@
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>January 2017</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4 class="subheading">Our Humble Beginning</h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Incubated at SV.CO</p>
@@ -255,6 +255,10 @@
                 <h1 class="text-center">Pricing</h1>
                 <hr class="primary">
                 <p class="text-center">Only pay for what you use</p>
+                <div class="container">
+				    <h3 class="text-center">Get in touch with our customer relations <br/> so that we could help you get a better deal</h3>
+                    <p class="text-center">Get a deal which best suits your needs</p>
+                </div>
 
 				<!--div class="col-sm-4">
 					<div class="st-pricing text-center">
@@ -303,8 +307,6 @@
 						<a href="" class="btn btn-send">Sign Up</a>
 					</div>
 				</div-->
-				<h3 class="text-center">Get in touch with our customer relations<br/> so that we could help u get a better deal</h3>
-                <p class="text-center">Get a deal which best suits ur needs</p>
 			</div>
 		</div>
 	</section>
@@ -317,7 +319,7 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Got any questions?</h2>
                     <hr class="primary">
-                    <p>We're just a phone away!</p>
+                    <p>We're just a phone call away!</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
@@ -338,34 +340,25 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>SCTCE,Pappanamcode
-                            <br>Trivandrum-695018</p>
-                    </div>
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-4 col-md-offset-4">
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/EVEAI-260387981060859/?ref=aymt_homepage_panel" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                             <li>
+                                <a href="https://twitter.com/eveai_continuum" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <!--li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                             </li>
                             <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                             <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
+                            </li-->
                         </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About</h3>
-                        <p>Lorem Ipsum xP</p>
                     </div>
                 </div>
             </div>
@@ -394,6 +387,7 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+    
 
 </body>
 
